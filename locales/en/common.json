@@ -1,0 +1,24 @@
+{
+  "currentLang": "English",
+  "nav": {
+    "about": "About us"
+  },
+  "company": {
+    "name": "Wazuka Chagenkyo Railway",
+    "fullname": "Wazuka Chagenkyo Railway Co., Ltd."
+  },
+  "wazuka": "Wazuka",
+  "_line": "{{name}} Line",
+  "sta": {
+    "kamo": "Kamo",
+    "ibirao": "Ibirao",
+    "ishitera": "Ishitera",
+    "shirasu": "Shirasu",
+    "wazuka": "Wazuka",
+    "harayama": "Harayama",
+    "yubune": "Yubune",
+    "higashiYubune": "Higashi-Yubune",
+    "sunakodani": "Sunakodani"
+  },
+  "_sta": "{{name}} Sta."
+}

@@ -1,0 +1,24 @@
+{
+  "currentLang": "日本語",
+  "nav": {
+    "about": "会社情報"
+  },
+  "company": {
+    "name": "わづか茶源郷鉄道",
+    "fullname": "わづか茶源郷鉄道株式会社"
+  },
+  "wazuka": "和束",
+  "_line": "{{name}}線",
+  "sta": {
+    "kamo": "賀茂",
+    "ibirao": "井平尾",
+    "ishitera": "石寺",
+    "shirasu": "白栖",
+    "wazuka": "和束",
+    "harayama": "原山",
+    "yubune": "湯船",
+    "higashiYubune": "東湯船",
+    "sunakodani": "砂子谷"
+  },
+  "_sta": "{{name}}駅"
+}
