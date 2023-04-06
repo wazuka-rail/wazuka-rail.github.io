@@ -23,7 +23,11 @@ const Index = () => {
   return (
     <>
       <h1 className="text-3xl font-bold underline">{t("company.name")}</h1>
-      <Link href="/about">{t("nav.about")}</Link>
+      <Link href="/about">
+        <button className="text-secondary">
+          {t("nav.about")}
+        </button>
+      </Link>
       <LanguageSwitcher />
       <h2 className="text-2xl font-bold">
         {t("_line", { name: t("wazuka") })}

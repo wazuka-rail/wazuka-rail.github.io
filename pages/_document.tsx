@@ -11,7 +11,7 @@ class Document extends NextDocument {
         <Head>
           <link rel="shortcut icon" href="/favicon.ico" />
         </Head>
-        <body>
+        <body className="text-gray">
           <Main />
           <NextScript />
         </body>

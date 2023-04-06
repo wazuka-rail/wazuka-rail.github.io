@@ -27,13 +27,13 @@ const LanguageSwitcher = () => {
     });
     return p;
   };
-
   return (
     <>
       {nextI18NextConfig.i18n.locales.map(locale => (
         locale === currentLocale || (
           <Link href={getPathname(locale)} key={locale}>
             <button
+              className="bg-primary text-white hover:bg-primary-light font-bold text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-50"
               onClick={() =>
                 languageDetector.cache?.(locale)}
             >
