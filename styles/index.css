@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+button {
+  @apply inline-flex items-center gap-2 font-bold text-sm px-3 py-2 rounded ease-linear transition-all duration-100;
+}
+
+button svg {
+  @apply w-5 h-5 flex-shrink-0;
+}
+
+button.filled {
+  @apply bg-primary text-white mr-1 mb-1 shadow;
+}
+
+button:hover.filled {
+  @apply bg-primary-light shadow-lg;
+}

@@ -15,6 +15,7 @@
   "author": "wazuka-rail",
   "license": "MIT",
   "dependencies": {
+    "@heroicons/react": "^2.0.17",
     "i18next": "^22.4.14",
     "i18next-browser-languagedetector": "^7.0.1",
     "next": "^13.2.4",
@@ -25,6 +26,7 @@
     "react-i18next": "^12.2.0"
   },
   "devDependencies": {
+    "@svgr/webpack": "^7.0.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.31",
     "autoprefixer": "^10.4.14",
