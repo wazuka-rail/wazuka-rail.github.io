@@ -1,10 +1,10 @@
 import { useTranslation } from "next-i18next";
-import React from "react";
+import type { ReactElement } from "react";
 import { getStaticPaths, getStaticProps } from "../../lib/getStatic";
 export { getStaticPaths, getStaticProps };
-import { WazukaRailColorIcon } from "../../components/icons";
-import LanguageSwitcher from "../../components/LanguageSwitcher";
-import Link from "../../components/Link";
+import Head from "next/head";
+import Layout from "../../components/Layout";
+import type { NextPageWithLayout } from "../_app";
 
 const stations = [
   "kamo",
@@ -18,33 +18,28 @@ const stations = [
   "sunakodani",
 ];
 
-const Index = () => {
+const Index: NextPageWithLayout = () => {
   const { t } = useTranslation();
 
   return (
     <>
-      <Link href="/">
-        <button className="text-2xl font-normal">
-          <WazukaRailColorIcon className="w-12 h-12" />
-          <span>{t("company.name")}</span>
-        </button>
-      </Link>
-      <Link href="/about">
-        <button className="text-secondary">
-          {t("nav.about")}
-        </button>
-      </Link>
-      <LanguageSwitcher />
-      <h1 className="text-2xl font-bold">
-        {t("_line", { name: t("wazuka") })}
-      </h1>
-      {stations.map(name => (
-        <h2 className="text-1xl font-bold" key={name}>
-          {t("_sta", { name: t("sta." + name) })}
-        </h2>
-      ))}
+      <Head>
+        <title>{t("company.name")}</title>
+      </Head>
+      <main>
+        <h1 className="text-2xl ">
+          {t("_line", { name: t("wazuka") })}
+        </h1>
+        {stations.map(name => (
+          <h2 className="text-1xl" key={name}>
+            {t("_sta", { name: t("sta." + name) })}
+          </h2>
+        ))}
+      </main>
     </>
   );
 };
+
+Index.getLayout = (page: ReactElement) => <Layout>{page}</Layout>;
 
 export default Index;

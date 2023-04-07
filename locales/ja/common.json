@@ -1,7 +1,11 @@
 {
   "currentLang": "日本語",
   "nav": {
+    "home": "ホーム",
     "about": "会社情報"
+  },
+  "about": {
+    "overview": "概要"
   },
   "company": {
     "name": "わづか茶源郷鉄道",

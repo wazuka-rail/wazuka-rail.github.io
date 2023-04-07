@@ -1,7 +1,11 @@
 {
   "currentLang": "English",
   "nav": {
+    "home": "Home",
     "about": "About us"
+  },
+  "about": {
+    "overview": "Overview"
   },
   "company": {
     "name": "Wazuka Chagenkyo Railway",
