@@ -13,6 +13,7 @@
   },
   "wazuka": "Wazuka",
   "_line": "{{name}} Line",
+  "jrKansaiLines": "JR-Kansai lines",
   "sta": {
     "kamo": "Kamo",
     "ibirao": "Ibirao",
@@ -22,7 +23,12 @@
     "harayama": "Harayama",
     "yubune": "Yubune",
     "higashiYubune": "Higashi-Yubune",
-    "sunakodani": "Sunakodani"
+    "sunakodani": "Sunakodani",
+    "kizu": "Kizu",
+    "kyoto": "Kyoto",
+    "nara": "Nara",
+    "kameyama": "Kameyama"
   },
-  "_sta": "{{name}} Sta."
+  "_sta": "{{name}} Sta.",
+  "_to": "to {{sta}}"
 }

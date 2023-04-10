@@ -4,6 +4,7 @@ import { getStaticPaths, getStaticProps } from "../../lib/getStatic";
 export { getStaticPaths, getStaticProps };
 import Head from "next/head";
 import Layout from "../../components/Layout";
+import RouteMap from "../../components/RouteMap";
 import type { NextPageWithLayout } from "../_app";
 
 const stations = [
@@ -27,6 +28,9 @@ const Index: NextPageWithLayout = () => {
         <title>{t("company.name")}</title>
       </Head>
       <main>
+        <div className="flex justify-center h-fit">
+          <RouteMap className="mx-0 md:mx-8 my-2 max-h-120" />
+        </div>
         <h1 className="text-2xl ">
           {t("_line", { name: t("wazuka") })}
         </h1>

@@ -13,6 +13,7 @@
   },
   "wazuka": "和束",
   "_line": "{{name}}線",
+  "jrKansaiLines": "関西旅客鉄道線",
   "sta": {
     "kamo": "賀茂",
     "ibirao": "井平尾",
@@ -22,7 +23,12 @@
     "harayama": "原山",
     "yubune": "湯船",
     "higashiYubune": "東湯船",
-    "sunakodani": "砂子谷"
+    "sunakodani": "砂子谷",
+    "kizu": "岐津",
+    "kyoto": "京都",
+    "nara": "奈良",
+    "kameyama": "瓶山"
   },
-  "_sta": "{{name}}駅"
+  "_sta": "{{name}}駅",
+  "_to": "至 {{sta}}"
 }
