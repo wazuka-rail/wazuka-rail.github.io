@@ -1,5 +1,10 @@
 import { useTranslation } from "next-i18next";
-import { TwitterWhiteIcon, WazukaRailIcon, YouTubeMonoDarkIcon } from "./icons";
+import {
+  GitHubMarkWhiteIcon,
+  TwitterWhiteIcon,
+  WazukaRailIcon,
+  YouTubeMonoDarkIcon,
+} from "./icons";
 import Link from "./Link";
 
 const Footer = () => {
@@ -17,7 +22,7 @@ const Footer = () => {
                 </button>
               </Link>
             </div>
-            <p className="text-xs mb-6 sm:pr-8">
+            <p className="text-xs mb-6 sm:pr-8 opacity-80">
               This railway is fictional. Any resemblance to actual organizations
               is coincidental.
             </p>
@@ -36,6 +41,14 @@ const Footer = () => {
                   <TwitterWhiteIcon
                     className="w-6 h-5 mx-0.5 my-1 opacity-80 hover:opacity-100"
                     title="Twitter"
+                  />
+                </button>
+              </Link>
+              <Link href="https://github.com/wazuka-rail">
+                <button>
+                  <GitHubMarkWhiteIcon
+                    className="w-6 h-6 mx-0.5 my-0.5 opacity-80 hover:opacity-100"
+                    title="GitHub"
                   />
                 </button>
               </Link>
