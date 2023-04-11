@@ -28,6 +28,9 @@ module.exports = {
       fontFamily: {
         "noto-sans": ["var(--font-noto-sans)"],
       },
+      gridTemplateColumns: {
+        "dl": "auto 1fr",
+      },
       spacing: {
         "120": "30rem",
       },

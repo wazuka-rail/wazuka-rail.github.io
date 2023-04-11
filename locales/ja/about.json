@@ -1,3 +1,14 @@
 {
-  "overviewContent": "<p>わづか茶源郷鉄道は架空の第三セクター鉄道です。</p>"
+  "overviewContent": "<p>わづか茶源郷鉄道は架空の第三セクター鉄道です。</p>",
+  "companyName": "会社名",
+  "hq": "本社",
+  "industry": "事業内容",
+  "founded": "設立",
+  "opStarted": "営業開始",
+  "company": {
+    "hq": "京都府和束市和束町釜塚",
+    "industry": "普通鉄道業および食品製造販売業",
+    "founded": "1987（昭和62）年2月10日",
+    "opStarted": "1987（昭和62）年10月1日"
+  }
 }

@@ -7,7 +7,7 @@ body {
 }
 
 main {
-  @apply p-4 sm:p-8 md:p-12;
+  @apply mx-auto max-w-screen-2xl p-4 sm:p-8 md:p-8;
 }
 
 button {
@@ -27,9 +27,21 @@ button:hover.filled {
 }
 
 h1 {
-  @apply text-2xl font-bold;
+  @apply text-2xl font-bold mt-4 mb-2;
 }
 
 h2 {
   @apply text-xl;
+}
+
+dl {
+  @apply grid grid-cols-dl m-2;
+}
+
+dl dt {
+  @apply p-1 max-w-xl font-bold;
+}
+
+dl dd {
+  @apply p-1;
 }

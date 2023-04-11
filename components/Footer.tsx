@@ -60,9 +60,12 @@ const Footer = () => {
               {t("nav.about")}
             </div>
 
-            <nav className="flex flex-col gap-4">
+            <nav className="flex flex-col gap-1">
               <Link href="/about#overview">
                 <button>{t("about.overview")}</button>
+              </Link>
+              <Link href="/about#companyInfo">
+                <button>{t("about.companyInfo")}</button>
               </Link>
             </nav>
           </div>

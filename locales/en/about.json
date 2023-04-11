@@ -1,3 +1,14 @@
 {
-  "overviewContent": "<p>Wazuka Chagenkyo Railway is a fictional railway company.</p>"
+  "overviewContent": "<p>Wazuka Chagenkyo Railway is a fictional railway company.</p>",
+  "companyName": "Name",
+  "hq": "Headquarter",
+  "industry": "Industry",
+  "founded": "Founded",
+  "opStarted": "Start of operation",
+  "company": {
+    "hq": "Kamatsuka, Wazuka-cho, Wazuka-shi, Kyoto, JAPAN",
+    "industry": "Rail Transport and Food",
+    "founded": "February 10, 1987",
+    "opStarted": "October 1, 1987"
+  }
 }

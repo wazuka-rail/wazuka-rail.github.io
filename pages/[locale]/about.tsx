@@ -18,6 +18,19 @@ const About: NextPageWithLayout = () => {
       <main>
         <h1 id="#overview">{t("about.overview")}</h1>
         <Trans t={t}>about:overviewContent</Trans>
+        <h1>{t("about.companyInfo")}</h1>
+        <dl>
+          <dt>{t("about:companyName")}</dt>
+          <dd>{t("company.fullname")}</dd>
+          <dt>{t("about:hq")}</dt>
+          <dd>{t("about:company.hq")}</dd>
+          <dt>{t("about:industry")}</dt>
+          <dd>{t("about:company.industry")}</dd>
+          <dt>{t("about:founded")}</dt>
+          <dd>{t("about:company.founded")}</dd>
+          <dt>{t("about:opStarted")}</dt>
+          <dd>{t("about:company.opStarted")}</dd>
+        </dl>
       </main>
     </>
   );

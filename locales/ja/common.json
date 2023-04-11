@@ -5,7 +5,8 @@
     "about": "会社情報"
   },
   "about": {
-    "overview": "概要"
+    "overview": "概要",
+    "companyInfo": "基本情報"
   },
   "company": {
     "name": "わづか茶源郷鉄道",
