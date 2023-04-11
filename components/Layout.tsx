@@ -1,4 +1,5 @@
 import type { ReactElement } from "react";
+import FontStyle from "./FontStyle";
 import Footer from "./Footer";
 import Header from "./Header";
 
@@ -9,9 +10,12 @@ type LayoutProps = {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <>
-      <Header />
-      {children}
-      <Footer />
+      <FontStyle />
+      <div className="font-noto-sans">
+        <Header />
+        {children}
+        <Footer />
+      </div>
     </>
   );
 };

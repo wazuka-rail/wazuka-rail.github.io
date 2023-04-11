@@ -25,6 +25,9 @@ module.exports = {
       black: "#000000",
     },
     extend: {
+      fontFamily: {
+        "noto-sans": ["var(--font-noto-sans)"],
+      },
       spacing: {
         "120": "30rem",
       },
