@@ -1,9 +1,7 @@
-import { GetStaticProps } from "next";
+import { GetStaticPropsContext } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { ParsedUrlQuery } from "querystring";
 import nextI18NextConfig from "../next-i18next.config";
-
-type Props = {};
 
 interface Params extends ParsedUrlQuery {
   locale: string;
@@ -24,18 +22,20 @@ export const getStaticPaths = () => (
   }
 );
 
-export const getStaticProps: GetStaticProps<Props, Params> = async (
-  { params },
-) => {
-  const locale = params?.locale || nextI18NextConfig.i18n.defaultLocale;
-  const translations = await serverSideTranslations(
-    locale,
-    ["common"],
-    nextI18NextConfig,
-  );
-  return {
-    props: {
-      ...translations,
-    },
+export const makeStaticProps = (ns: string[]) => {
+  return async ({ params }: GetStaticPropsContext<Params>) => {
+    const locale = params?.locale || nextI18NextConfig.i18n.defaultLocale;
+    const translations = await serverSideTranslations(
+      locale,
+      ns,
+      nextI18NextConfig,
+    );
+    return {
+      props: {
+        ...translations,
+      },
+    };
   };
 };
+
+export const getStaticProps = makeStaticProps(["common"]);

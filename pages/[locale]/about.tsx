@@ -1,13 +1,15 @@
-import { useTranslation } from "next-i18next";
+import { Trans, useTranslation } from "next-i18next";
 import type { ReactElement } from "react";
-import { getStaticPaths, getStaticProps } from "../../lib/getStatic";
+import { getStaticPaths, makeStaticProps } from "../../lib/getStatic";
+const ns = ["common", "about"];
+const getStaticProps = makeStaticProps(ns);
 export { getStaticPaths, getStaticProps };
 import Head from "next/head";
 import Layout from "../../components/Layout";
 import type { NextPageWithLayout } from "../_app";
 
 const About: NextPageWithLayout = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation(ns);
   return (
     <>
       <Head>
@@ -15,9 +17,7 @@ const About: NextPageWithLayout = () => {
       </Head>
       <main>
         <h1 id="#overview">{t("about.overview")}</h1>
-        <p>
-          The Wazuka Chagenkyo Railway is a fictional railway company.
-        </p>
+        <Trans t={t}>about:overviewContent</Trans>
       </main>
     </>
   );
