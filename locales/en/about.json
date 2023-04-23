@@ -10,5 +10,33 @@
     "industry": "Rail Transport and Food",
     "founded": "February 10, 1987",
     "opStarted": "October 1, 1987"
+  },
+  "history": "History",
+  "historyEvents": {
+    "1922-04-11": "The line from Kibukawa to Kamo was planned to be constructed by the government.",
+    "1929-05-16": "Construction between Kibukawa and Kamo began.",
+    "1933-05-08": "The Kibukawa to Shigaraki section opened as the JGR (Japanese Goverment Railways) Shigaraki Line.",
+    "1934-05-07": "The Kamo to Wazuka section opend as the JGR Wazuka Line.",
+    "1934-12-01": "The extended section from Wazuka to Sunakodani was opened.",
+    "1936-10-01": "Construction between Shigaraki and Sunakodani was discontinued.",
+    "1945-06-19": "The Sunakodani Tunnel explosion accident occurred. The Wazuka Line was suspended.",
+    "1947-07-25": "The JNR (Japanese National Railways) Wazuka Line resumed service. The Sunakodani Cenotaph was built.",
+    "1956-04-01": "Wazuka City was established.",
+    "1960-06-01": "Diesel cars were introduced to passenger trains.",
+    "1970-10-01": "Steam locomotive operation was discontinued.",
+    "1974-03-05": "The CTC (Centralized Traffic Control) system (type IV) was introduced with a control center at Kamo Sta.",
+    "1981-09-18": "The JNR Wazuka Line was specified as the target for abolition.",
+    "1983-03-08": "The Wazuka Line, together with the line between Kameyama and Kizu, came under the control of the Kameyama CTC center of Tennoji Bureau.",
+    "1986-09-19": "The decision to convert to a third-sector railway was approved.",
+    "1987-02-10": "The Wazuka Chagengo Railway Co., Ltd. was established as a third-sector.",
+    "1987-04-01": "With the privatisation of JNR, the Wazuka Line was transferred to the Kansai Railway Company.",
+    "1987-10-01": "The Wazuka line of the Wazuka Chagengo Railway was opened. Ibirao, Shirasu, Harayama, Higashi-Yubune Sta. and the Wazuka CTC center were opened. The WCR200 series cars entered into service.",
+    "1988-04-24": "In conjunction with the Nara Expo, special express trains, Asuka were operated.",
+    "1996-04-01": "The WCR300 series cars, which were converted from the WCR200, entered into service. ATP (Automatic Train Protection) on-board devices of ATS-S were replaced by ATS-SW.",
+    "2006-03-12": "ATP beacons for speed checking for curves were completed.",
+    "2009-03-10": "The railway business reconstruction plan by Wazuka City, Kizugawa City and Wazuka Chagengo Railway was approved and the railway site was publicly owned.",
+    "2010-09-09": "ATP beacons to prevent erroneous train departures were completed.",
+    "2011-04-01": "The new CTC system (type VI) became operational.",
+    "2012-04-01": "The WCR400 series cars entered into service."
   }
 }
