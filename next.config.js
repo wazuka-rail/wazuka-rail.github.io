@@ -2,6 +2,7 @@
  * @type {import('next').NextConfig}
  */
 module.exports = {
+  output: "export",
   trailingSlash: true,
   webpack(config) {
     // Grab the existing rule that handles SVG imports
