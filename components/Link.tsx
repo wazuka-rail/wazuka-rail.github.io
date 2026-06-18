@@ -1,6 +1,6 @@
 import NextLink, { LinkProps } from "next/link";
 import { useRouter } from "next/router";
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import { first } from "../lib/utilities";
 
 type MyLinkProps = LinkProps & {
