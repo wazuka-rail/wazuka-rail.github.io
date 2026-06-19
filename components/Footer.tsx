@@ -1,8 +1,8 @@
 import { useTranslation } from "next-i18next/pages";
 import {
   GitHubMarkWhiteIcon,
-  TwitterWhiteIcon,
   WazukaRailIcon,
+  XWhiteIcon,
   YouTubeMonoDarkIcon,
 } from "./icons";
 import Link from "./Link";
@@ -36,11 +36,11 @@ const Footer = () => {
                   />
                 </button>
               </Link>
-              <Link href="https://twitter.com/WazukaRail">
+              <Link href="https://x.com/WazukaRail">
                 <button>
-                  <TwitterWhiteIcon
+                  <XWhiteIcon
                     className="w-6 h-5 mx-0.5 my-1 opacity-80 hover:opacity-100"
-                    title="Twitter"
+                    title="X"
                   />
                 </button>
               </Link>
