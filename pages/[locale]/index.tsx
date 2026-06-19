@@ -1,4 +1,4 @@
-import { useTranslation } from "next-i18next";
+import { useTranslation } from "next-i18next/pages";
 import type { ReactElement } from "react";
 import { getStaticPaths, getStaticProps } from "../../lib/getStatic";
 export { getStaticPaths, getStaticProps };
