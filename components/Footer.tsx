@@ -67,6 +67,9 @@ const Footer = () => {
               <Link href="/about#companyInfo">
                 <button>{t("about.companyInfo")}</button>
               </Link>
+              <Link href="/about#history">
+                <button>{t("about.history")}</button>
+              </Link>
             </nav>
           </div>
         </div>
