@@ -33,7 +33,7 @@ const RouteMap = ({ className }: RouteMapProps) => {
         </g>
         <g stroke="#338000" strokeWidth="4">
           <circle cx="404" cy="564" r="20" />
-          <circle cx="664" cy="296" r="20" />
+          <circle cx="668" cy="292" r="20" />
           <circle cx="1120" cy="80" r="20" />
         </g>
         <g stroke="#333">
@@ -45,10 +45,10 @@ const RouteMap = ({ className }: RouteMapProps) => {
           <circle cx="1120" cy="520" r="6" />
         </g>
       </g>
-      <g fill="#333" xmlSpace="preserve" fontSize="44px" textAnchor="end">
+      <g fill="#333" xmlSpace="default" fontSize="44px" textAnchor="end">
         <g textAnchor="start">
-          <text x="336" y="112" fontSize="28px">{t("company.name")}</text>
-          <text x="336" y="168" fontSize="52px" fill="#338000">
+          <text x="280" y="112" fontSize="28px">{t("company.name")}</text>
+          <text x="280" y="168" fontSize="52px" fill="#338000">
             {t("_line", { name: t("wazuka") })}
           </text>
           <text x="280" y="680" fontSize="36px" fill="#0055d4">
@@ -56,17 +56,17 @@ const RouteMap = ({ className }: RouteMapProps) => {
           </text>
         </g>
         <text x="188" y="652" textAnchor="start">{t("sta.kizu")}</text>
-        <text x="372" y="572">{t("sta.kamo")}</text>
-        <text x="448" y="492">{t("sta.ibirao")}</text>
-        <text x="516" y="424">{t("sta.ishitera")}</text>
-        <text x="576" y="364">{t("sta.shirasu")}</text>
-        <text x="632" y="308">{t("sta.wazuka")}</text>
-        <text x="712" y="228">{t("sta.harayama")}</text>
-        <text x="848" y="92">{t("sta.yubune")}</text>
-        <text x="1024" y="136" textAnchor="middle">
+        <text x="376" y="568">{t("sta.kamo")}</text>
+        <text x="456" y="484">{t("sta.ibirao")}</text>
+        <text x="524" y="416">{t("sta.ishitera")}</text>
+        <text x="584" y="356">{t("sta.shirasu")}</text>
+        <text x="640" y="292">{t("sta.wazuka")}</text>
+        <text x="716" y="224">{t("sta.harayama")}</text>
+        <text x="856" y="84">{t("sta.yubune")}</text>
+        <text x="1028" y="136" textAnchor="middle">
           {t("sta.higashiYubune")}
         </text>
-        <text x="1120" y="52" textAnchor="middle">{t("sta.sunakodani")}</text>
+        <text x="1124" y="52" textAnchor="middle">{t("sta.sunakodani")}</text>
         <g fontSize="28px">
           <text x="16" y="184" textAnchor="start">
             {t("_to", { sta: t("sta.kyoto") })}
