@@ -30,7 +30,7 @@ const LanguageSwitcher = () => {
   };
   return (
     <>
-      {nextI18NextConfig.i18n.locales.map(locale => (
+      {nextI18NextConfig.i18n.locales.map((locale: string) => (
         locale === currentLocale || (
           <Link href={getPathname(locale)} key={locale}>
             <button

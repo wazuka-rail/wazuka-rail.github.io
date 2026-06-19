@@ -1,4 +1,4 @@
-import { useTranslation } from "next-i18next";
+import { useTranslation } from "next-i18next/pages";
 import {
   GitHubMarkWhiteIcon,
   TwitterWhiteIcon,
@@ -11,7 +11,7 @@ const Footer = () => {
   const { t } = useTranslation();
   return (
     <footer className="bg-primary text-white">
-      <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <div className="mx-auto max-w-(--breakpoint-2xl) px-4 md:px-8">
         <div className="mb-16 grid grid-cols-2 gap-12 pt-10 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 lg:pt-12">
           <div className="col-span-full lg:col-span-2">
             <div className="mb-4 lg:-mt-2">

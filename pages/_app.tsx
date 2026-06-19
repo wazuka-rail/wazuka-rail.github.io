@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { appWithTranslation } from "next-i18next";
+import { appWithTranslation } from "next-i18next/pages";
 import type { AppProps } from "next/app";
 import type { ReactElement } from "react";
 

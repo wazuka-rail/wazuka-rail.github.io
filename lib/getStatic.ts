@@ -1,5 +1,5 @@
 import { GetStaticPropsContext } from "next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { serverSideTranslations } from "next-i18next/pages/serverSideTranslations";
 import { ParsedUrlQuery } from "querystring";
 import nextI18NextConfig from "../next-i18next.config";
 
@@ -8,7 +8,7 @@ interface Params extends ParsedUrlQuery {
 }
 
 const i18nPaths: { params: Params }[] = nextI18NextConfig.i18n.locales.map((
-  lng,
+  lng: string,
 ) => ({
   params: {
     locale: lng,

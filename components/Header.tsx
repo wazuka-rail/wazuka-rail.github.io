@@ -1,4 +1,4 @@
-import { useTranslation } from "next-i18next";
+import { useTranslation } from "next-i18next/pages";
 import { WazukaRailColorIcon } from "./icons";
 import LanguageSwitcher from "./LanguageSwitcher";
 import Link from "./Link";
@@ -7,7 +7,7 @@ const Header = () => {
   const { t } = useTranslation();
   return (
     <header className="bg-white shadow">
-      <div className="mx-auto max-w-screen-2xl flex flex-col px-4 md:px-8">
+      <div className="mx-auto max-w-(--breakpoint-2xl) flex flex-col px-4 md:px-8">
         <div className="flex items-center justify-between">
           <Link href="/">
             <button className="text-2xl font-normal">
