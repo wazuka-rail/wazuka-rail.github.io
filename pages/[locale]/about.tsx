@@ -44,9 +44,9 @@ const About: NextPageWithLayout = () => {
         <title>{t("nav.about") + " - " + t("company.name")}</title>
       </Head>
       <main>
-        <h1 id="#overview">{t("about.overview")}</h1>
+        <h1 id="overview">{t("about.overview")}</h1>
         <Trans t={t}>about:overviewContent</Trans>
-        <h1>{t("about.companyInfo")}</h1>
+        <h1 id="companyInfo">{t("about.companyInfo")}</h1>
         <dl>
           <dt>{t("about:companyName")}</dt>
           <dd>{t("company.name")}</dd>
@@ -59,7 +59,7 @@ const About: NextPageWithLayout = () => {
           <dt>{t("about:opStarted")}</dt>
           <dd>{t("about:company.opStarted")}</dd>
         </dl>
-        <h1>{t("about:history")}</h1>
+        <h1 id="history">{t("about。history")}</h1>
         <dl>
           {eventDates.map(d => (
             <>
