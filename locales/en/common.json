@@ -9,8 +9,7 @@
     "companyInfo": "Company"
   },
   "company": {
-    "name": "Wazuka Chagenkyo Railway",
-    "fullname": "Wazuka Chagenkyo Railway Co., Ltd."
+    "name": "Wazuka Chagenkyo Railway"
   },
   "wazuka": "Wazuka",
   "_line": "{{name}} Line",
