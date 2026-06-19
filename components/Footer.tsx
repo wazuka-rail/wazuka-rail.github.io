@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-800 py-8 text-center text-sm text-gray-400">
           <span className="inline-block mx-1">
-            Copyright© 2023 {t("company.fullname")}
+            Copyright© 2023 {t("company.name")}
           </span>
           <span className="inline-block mx-1">All rights reserved.</span>
         </div>

@@ -49,7 +49,7 @@ const About: NextPageWithLayout = () => {
         <h1>{t("about.companyInfo")}</h1>
         <dl>
           <dt>{t("about:companyName")}</dt>
-          <dd>{t("company.fullname")}</dd>
+          <dd>{t("company.name")}</dd>
           <dt>{t("about:hq")}</dt>
           <dd>{t("about:company.hq")}</dd>
           <dt>{t("about:industry")}</dt>
