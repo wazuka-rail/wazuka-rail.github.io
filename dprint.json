@@ -4,7 +4,11 @@
   },
   "json": {
   },
-  "includes": ["**/*.{ts,tsx,js,jsx,cjs,mjs,json}"],
+  "yaml": {
+  },
+  "malva": {
+  },
+  "includes": ["**/*.{ts,tsx,js,jsx,cjs,mjs,json,yml,css}"],
   "excludes": [
     ".git",
     "**/node_modules",
@@ -14,7 +18,9 @@
     "/build"
   ],
   "plugins": [
-    "https://plugins.dprint.dev/typescript-0.84.0.wasm",
-    "https://plugins.dprint.dev/json-0.17.1.wasm"
+    "https://plugins.dprint.dev/typescript-0.96.1.wasm",
+    "https://plugins.dprint.dev/json-0.22.0.wasm",
+    "https://plugins.dprint.dev/g-plane/pretty_yaml-v0.6.0.wasm",
+    "https://plugins.dprint.dev/g-plane/malva-v0.16.0.wasm"
   ]
 }
