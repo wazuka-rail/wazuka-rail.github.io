@@ -20,11 +20,8 @@ const LanguageSwitcher = () => {
   const getPathname = (locale: string) => {
     let p = router.pathname;
     Object.keys(router.query).forEach((k) => {
-      if (k === "locale") {
-        p = p.replace(`[${k}]`, locale);
-        return;
-      }
-      p = p.replace(`[${k}]`, router.query[k] as string);
+      const v = k === "locale" ? locale : router.query[k] as string;
+      p = p.replace(`[${k}]`, encodeURIComponent(v));
     });
     return p;
   };
