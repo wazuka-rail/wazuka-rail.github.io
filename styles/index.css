@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @font-face {
   font-family: "LocalNotoSans";
@@ -23,7 +23,7 @@
 }
 
 @property --font-noto-sans {
-  syntax: '*';
+  syntax: "*";
   initial-value: sans-serif;
   inherits: true;
 }
